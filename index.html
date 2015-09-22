@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Browser Circles</title>
+        <link href="game.css" type="text/css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div id="toolbar">
+            <div id="radbar">
+                <a>Radius </a>
+                <!--<div id="decRad">-</div>-->
+                <img id="decRad" src="./assets/decRad.png">
+                <a id="rad">10</a>
+                <!--<div id="incRad">+</div>-->
+                <img id="incRad" src="./assets/incRad.png">
+            </div>
+            <a>Edge Color</a>
+            <select id="colorList">
+                <option value="#ff0000">Red</option>
+                <option value="#ffa500">Orange</option>
+                <option value="#ffff00">Yellow</option>
+                <option value="#00ff00">Light Green</option>
+                <option value="#008000">Dark Green</option>
+                <option value="#00ffff">Cyan</option>
+                <option value="#0000ff">Blue</option>
+                <option value="#9f00ff">Violet</option>
+                <option value="#ff00ff">Magenta</option>
+                <option value="#000000">Black</option>
+                <option value="#ffffff">White</option>
+            </select>
+            <a>Fill Color</a>
+            <select id="fillList">
+                <option value="nofilll">No Fill</option>
+                <option value="equalss">Same As Edge</option>
+                <option value="#ff0000">Red</option>
+                <option value="#ffa500">Orange</option>
+                <option value="#ffff00">Yellow</option>
+                <option value="#00ff00">Light Green</option>
+                <option value="#008000">Dark Green</option>
+                <option value="#00ffff">Cyan</option>
+                <option value="#0000ff">Blue</option>
+                <option value="#9f00ff">Violet</option>
+                <option value="#ff00ff">Magenta</option>
+                <option value="#000000">Black</option>
+                <option value="#ffffff">White</option>
+            </select>
+        </div>
+        <canvas id="canvas"></canvas>
+        <script type="text/javascript" src="main.js"></script>
+    </body>
+</html>
